@@ -1,0 +1,45 @@
+{
+  "name": "react-inputs",
+  "version": "0.0.1",
+  "description": "A Simple, Lightweight package to handle the difficulties of working with inputs in react",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": ["React", "Javascript", "Forms", "Inputs", "Hooks"],
+  "author": "Hosam Sayahi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@storybook/addon-actions": "^6.5.14",
+    "@storybook/addon-essentials": "^6.5.14",
+    "@storybook/addon-interactions": "^6.5.14",
+    "@storybook/addon-links": "^6.5.14",
+    "@storybook/builder-webpack4": "^6.5.14",
+    "@storybook/manager-webpack4": "^6.5.14",
+    "@storybook/react": "^6.5.14",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.3.0",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@types/node": "^18.7.5",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "esbuild": "^0.15.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.78.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-esbuild": "^4.9.3",
+    "tslib": "^2.4.0",
+    "typescript": "^4.9.3"
+  },
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  }
+}
